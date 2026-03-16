@@ -1,0 +1,26 @@
+{
+  "name": "bad-links-destroyer",
+  "version": "1.0.0",
+  "description": "Discord moderation bot to detect and remove obfuscated/scam links",
+  "main": "main.js",
+  "author": "soft4211",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "bot",
+    "moderation",
+    "security",
+    "scam",
+    "links",
+    "antispam"
+  ],
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^17.3.1",
+    "unidecode": "^0.1.8"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "node test_suite.js"
+  }
+}
